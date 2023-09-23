@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #40444f31;
+}
+
+#cabecalho {
+    background-color: #40444F;
+    align-items: center;
+    margin-bottom: 42px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#cabecalho h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+header .nav-link {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#inicio img {
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+.carousel-inner {
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item .nav-link.active {
+    background-color: #6ec116b9;
+}
+
+footer {
+    background-color: #40444F;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+}
+
+.linha-horizontal {
+    border-bottom: 1px solid #00000036; /* Você pode ajustar a largura e a cor da linha conforme necessário */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    margin-top: 30px;
+  }
+
+  #product {
+    padding-top: 65px;
+}
+  
